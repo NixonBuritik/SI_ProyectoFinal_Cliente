@@ -7,7 +7,7 @@ import requests
 cropper = Cropper()
 code64 = Code64()
 camara = cv2.VideoCapture(1)
-contador = 2
+contador = 0
 
 
 def dibujarContornos(imagen):
